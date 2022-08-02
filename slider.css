@@ -1,0 +1,15 @@
+
+
+.moveEnd{
+	transform: translateX(-200%);
+	opacity: 0;
+}
+.moveStart{
+	transform: translateX(100%);
+	opacity: 0;
+}
+.moveActive{
+	transform: translateX(0%);
+	z-index: 10;
+	opacity: 1;
+}
